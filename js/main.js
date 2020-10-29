@@ -35,7 +35,6 @@
           let destCol;
 
           do {
-
             const dir = Math.floor(Math.random() * 4);
             switch (dir) {
               case 0:
@@ -57,10 +56,8 @@
 
             }
             
-          }
-          while (data[destRow][destCol] === 1);
-
-          
+          } while (data[destRow][destCol] === 1);
+            
           data[destRow][destCol] = 1;
         }
       }
